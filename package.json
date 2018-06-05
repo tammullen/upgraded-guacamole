@@ -1,0 +1,28 @@
+{
+  "name": "upgraded-guacamole",
+  "version": "1.0.0",
+  "description": "Puppeteer tests for the purpose of capturing data from Chrome's Coverage dev tool",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --require babel-core/register specs --require babel-polyfill"
+  },
+  "author": "Tam Mullen",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "dotenv": "^5.0.1",
+    "puppeteer": "^1.4.0",
+    "wpcom": "^5.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "mailosaur": "^5.0.3",
+    "mocha": "^5.2.0"
+  }
+}
