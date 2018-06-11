@@ -22,10 +22,7 @@ describe('Signup Tests', function () {
     after(async function () {
         await browser.close();
 
-        let dt = new Date();
-        let utcDate = dt.toUTCString();
-
-        coverageHelper.addWPcomPost(`wp-signup-free-spec ${utcDate}`, HTMLCoverageReport);
+        coverageHelper.outputCoverage('wp-signup-free-spec', HTMLCoverageReport);
     });
 
     it('Launch Calypso', async function () {

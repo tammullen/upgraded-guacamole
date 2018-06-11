@@ -1,0 +1,3 @@
+# keep this folder for HTML output files but ignore any files.
+*
+!.gitignore

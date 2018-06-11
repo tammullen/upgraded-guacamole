@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha --require babel-core/register specs --require babel-polyfill"
+    "test": "mocha --require babel-core/register specs --require babel-polyfill --bail"
   },
   "author": "Tam Mullen",
   "license": "ISC",

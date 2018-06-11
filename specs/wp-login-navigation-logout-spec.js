@@ -20,10 +20,7 @@ describe('Login / Logout Tests', function () {
     after(async function () {
         await browser.close();
 
-        let dt = new Date();
-        let utcDate = dt.toUTCString();
-
-        coverageHelper.addWPcomPost(`wp-login-navigation-logout-spec ${utcDate}`, HTMLCoverageReport);
+        coverageHelper.outputCoverage('wp-login-navigation-logout-spec', HTMLCoverageReport);
     });
 
     it('Launch Calypso', async function () {

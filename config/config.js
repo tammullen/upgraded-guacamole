@@ -17,6 +17,8 @@ module.exports = {
 
     passwordForNewTestSignUps: process.env.passwordForNewTestSignUps || '',
 
+    outputTarget: 'local', //'local' or 'WPCOM'
+
     outputWordPressName: process.env.outputWordPressName || '',
 
     outputWordPressAPIKey: process.env.outputWordPressAPIKey || ''

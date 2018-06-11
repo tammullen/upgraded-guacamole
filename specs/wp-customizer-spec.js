@@ -21,10 +21,7 @@ describe('Login / Customizer / Logout Tests', function () {
     after(async function () {
         await browser.close();
 
-        let dt = new Date();
-        let utcDate = dt.toUTCString();
-
-        coverageHelper.addWPcomPost(`wp-customizer-spec ${utcDate}`, HTMLCoverageReport);
+        coverageHelper.outputCoverage('wp-customizer-spec', HTMLCoverageReport);
     });
 
     it('Launch Calypso', async function () {
