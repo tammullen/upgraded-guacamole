@@ -24,6 +24,7 @@ testPassword | password for login | yes
 mailosaurApiKey | master key to access mailosaur api | yes
 signupInboxId | inbox id for mailosaur | yes
 passwordForNewTestSignUps | password for signups | yes
+outputTarget | output coverage to local file ('local') or blog post ('WPCOM') | no (`config.js`)
 outputWordPressName | output blog name | yes
 outputWordPressAPIKey | key for writing to blog | yes
 
