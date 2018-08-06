@@ -12,7 +12,6 @@ A PoC project that demonstrates using Puppeteer to create tests and capture the 
 
 `npm test`
 
-
 #### Environment variables / Options
 key | what for | is env variable?
 --- | --- | ---
